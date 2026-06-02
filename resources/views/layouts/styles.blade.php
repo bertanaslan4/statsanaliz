@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{asset('css/animate.css')}}">
+<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('css/fonts.css')}}">
+<link rel="stylesheet" href="{{asset('flaticon/football/flaticon.css')}}">
+<link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
+<link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
+<link rel="stylesheet" href="{{asset('css/owl.theme.default.css')}}">
+<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+<link rel="stylesheet" href="{{asset('css/football_style.css')}}">
