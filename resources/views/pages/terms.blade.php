@@ -1,6 +1,4 @@
-@extends('layouts.app') <!-- Sitenizin ana layout dosyasının adını buraya yazın -->
-
-@section('content')
+<x-app-layout>
     <div class="container py-5" style="margin-top: 80px; margin-bottom: 80px;">
         <div class="row justify-content-center">
             <div class="col-lg-10">
@@ -29,4 +27,4 @@
             </div>
         </div>
     </div>
-@endsection
+    </x-app-layout>
