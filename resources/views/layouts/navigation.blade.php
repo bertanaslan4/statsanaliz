@@ -57,7 +57,7 @@
 
     <div class="ft_logo_wrapper">
         <a href="{{ route('welcome') }}">
-            <img style="max-width:50%" src="{{ asset('images/football/new-logo.png') }}" alt="logo">
+            <img class="w-1/2 md:w-auto" src="{{ asset('images/football/new-logo.png') }}" alt="logo">
         </a>
     </div>
 
