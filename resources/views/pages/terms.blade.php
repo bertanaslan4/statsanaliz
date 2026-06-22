@@ -22,17 +22,10 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 full_width">
                     <div class="indx_title_left_wrapper">
-                        <h2>Kayıt Ol</h2>
+                        <h2>Kullanım Koşulları</h2>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 full_width">
-                    <div class="indx_title_right_wrapper">
-                        <ul>
-                            <li><a href="{{ route('welcome') }}">Ana Sayfa</a> &nbsp;&nbsp;&nbsp;> </li>
-                            <li>Kayıt Ol</li>
-                        </ul>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
