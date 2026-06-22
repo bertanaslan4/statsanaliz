@@ -20,7 +20,8 @@ Route::get('/', function () {
 
     return view('welcome', compact('banners', 'setting'));
 })->name('welcome');
-
+Route::view('/gizlilik-politikasi', 'pages.privacy')->name('privacy');
+Route::view('/kullanim-kosullari', 'pages.terms')->name('terms');
 
 Route::middleware(['auth', IsAdmin::class])->prefix('yonetim')->name('yonetim.')->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('index');

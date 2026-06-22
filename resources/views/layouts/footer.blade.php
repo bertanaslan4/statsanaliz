@@ -54,8 +54,8 @@
                             <h4>Kurumsal</h4>
                             <ul>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>Hakkımızda</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Kullanım Koşulları</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i>Gizlilik Politikası</a></li>
+                                <li><a href="{{ route('terms') }}"><i class="fa fa-angle-right"></i>Kullanım Koşulları</a></li>
+                                <li><a href="{{ route('privacy') }}"><i class="fa fa-angle-right"></i>Gizlilik Politikası / KVKK</a></li>
                                 <li><a href="#"><i class="fa fa-angle-right"></i>VIP Üyelik Sözleşmesi</a></li>
                             </ul>
                         </div>

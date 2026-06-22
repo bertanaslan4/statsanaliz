@@ -2,7 +2,7 @@
     <div id="toggle_close">&times;</div>
     <div id='cssmenu'>
         <a href="{{ route('welcome') }}">
-            <img src="{{ asset('images/football/logo.jpeg') }}" alt="logo">
+            <img src="{{ asset('images/football/new-logo.png') }}" alt="logo">
         </a>
         <ul class="sidebb">
             <li><a href="{{ route('welcome') }}">Ana Sayfa</a></li>
@@ -57,7 +57,7 @@
 
     <div class="ft_logo_wrapper">
         <a href="{{ route('welcome') }}">
-            <img style="max-width:50%" src="{{ asset('images/football/logo.jpeg') }}" alt="logo">
+            <img style="max-width:50%" src="{{ asset('images/football/new-logo.png') }}" alt="logo">
         </a>
     </div>
 
