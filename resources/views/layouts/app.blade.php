@@ -22,8 +22,7 @@
     </div>
 </div>
 
-<div class="cursor cursor-shadow"></div>
-<div class="cursor cursor-dot"></div>
+
 
 <a href="javascript:" id="return-to-top"><i class="flaticon-up-arrow"></i></a>
 
