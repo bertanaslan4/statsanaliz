@@ -15,6 +15,7 @@
         .content { padding: 30px; }
         .navbar { background: #fff; border-bottom: 1px solid #dee2e6; padding: 15px 30px; }
         .stat-card { border-radius: 10px; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+
     </style>
 </head>
 <body>

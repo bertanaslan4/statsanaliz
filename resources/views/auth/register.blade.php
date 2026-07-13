@@ -12,6 +12,14 @@
         <link rel="stylesheet" href="{{ asset('css/customScrollbar.css') }}">
         <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('css/inner_style.css') }}">
+        <style>
+            @media (max-width: 767px) {
+                .custom-mobile-logo {
+                    height: 70px;
+                    object-fit: contain; /* Görüntünün ezilmemesi için */
+                }
+            }
+        </style>
     @endpush
 
     <div class="indx_title_main_wrapper float_left">

@@ -17,6 +17,12 @@
             .login_wrapper input.form-control {
                 text-transform: none !important;
             }
+            @media (max-width: 767px) {
+                .custom-mobile-logo {
+                    height: 70px;
+                    object-fit: contain; /* Görüntünün ezilmemesi için */
+                }
+            }
         </style>
     @endpush
 
