@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('css/inner_style.css') }}">
 
+
         <style>
             .dashboard-main { padding: 60px 0; background-color: #f8f9fa; }
             .dashboard-title-wrapper { text-align: center; margin-bottom: 40px; }
@@ -45,6 +46,12 @@
 
             @media (max-width: 991px) { .card-custom { width: calc(50% - 20px); } }
             @media (max-width: 767px) { .card-custom { width: 100%; } }
+            @media (max-width: 767px) {
+                .custom-mobile-logo {
+                    height: 70px;
+                    object-fit: contain; /* Görüntünün ezilmemesi için */
+                }
+            }
         </style>
     @endpush
 

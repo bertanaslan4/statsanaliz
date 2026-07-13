@@ -15,6 +15,12 @@
             #clockdiv > div { padding: 10px; border-radius: 3px; background: rgba(56, 189, 248, 0.2); display: inline-block; margin: 2px; }
             #clockdiv div > span { padding: 10px; border-radius: 3px; background: rgba(15, 23, 42, 0.8); display: inline-block; font-weight: bold; color: #38bdf8; }
             .smalltext { padding-top: 5px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+            @media (max-width: 767px) {
+                .custom-mobile-logo {
+                    height: 70px;
+                    object-fit: contain; /* Görüntünün ezilmemesi için */
+                }
+            }
         </style>
     @endpush
 
@@ -149,7 +155,7 @@
         <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
         <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script>
         <script src="{{ asset('js/isotope.pkgd.min.js') }}"></script>
-        <script src="{{ asset('js/cursor.js') }}"></script>
+
         <script src="{{ asset('js/football.js') }}"></script>
 
         <script>
